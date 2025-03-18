@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Tester</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Love Tester 💖</h1>
+    <div class="container">
+      <input type="text" id="name1" placeholder="Nama Pertama" />
+      <input type="text" id="name2" placeholder="Nama Kedua" />
+      <button onclick="calculateLove()">Tes Cinta!</button>
+      <p id="result"></p>
+      <div class="progress-container">
+        <div class="progress-bar" id="love-bar">0%</div>
+      </div>
+    </div>
+
+    <!-- Pop-up -->
+    <div id="popup" class="popup" onclick="closePopup()">
+      <img id="popup-img" src="gracia.jpg" alt="HORMAT GRAKK!" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
